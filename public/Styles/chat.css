@@ -79,6 +79,7 @@ body {
 .Date {
     color: gray;
     font-size: small;
+    padding-left: 5px;
 }
 
 .pfp {
