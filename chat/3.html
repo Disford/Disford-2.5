@@ -38,7 +38,7 @@
 
         function SubmitText() {
           if(input.value) {
-            var dateFull = date.getMonth()+1+':'+date.getDate()+':'+date.getFullYear();
+            var dateFull = date.getMonth()+1+'/'+date.getDate()+'/'+date.getFullYear();
             socket.emit("chat message 3", { name: Name, message: input.value, date: dateFull });
             input.value = '';
           }
